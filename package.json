@@ -1,0 +1,31 @@
+{
+  "name": "maas-server",
+  "version": "1.0.0",
+  "description": "It is an application code for maas-server, which is a very raw version, developed and tested for research paper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jyotiraditya",
+  "license": "ISC",
+  "dependencies": {
+    "bytebuffer": "~2.3.1",
+    "js-yaml": "^3.2.1",
+    "jsonwebtoken": "^0.4.1",
+    "nconf": "^0.6.9",
+    "protobufjs": "~2.0.5",
+    "q": "~1.0.1",
+    "revalidator": "^0.2.0",
+    "to-date": "latest",
+    "winston": "~0.7.3",
+    "ws": "^0.4.32"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-mocha-test": "latest",
+    "grunt-exec": "latest",
+    "mocha": "latest",
+    "grunt-jsdoc": "~0.5.4"
+  }
+}
